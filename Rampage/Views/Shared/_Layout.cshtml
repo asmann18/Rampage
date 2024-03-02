@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Demo styles -->
+    <!-- font awesome cdn Strt -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn end -->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/about.css">
+    <link rel="stylesheet" href="~/assets/css/basket.css">
+    <link rel="stylesheet" href="~/assets/css/blog.css">
+    <link rel="stylesheet" href="~/assets/css/contact.css">
+    <link rel="stylesheet" href="~/assets/css/login.css">
+    <link rel="stylesheet" href="~/assets/css/register.css">
+    <link rel="stylesheet" href="~/assets/css/shop.css">
+    <link rel="stylesheet" href="~/assets/css/shopdetail.css">
+    <link rel="stylesheet" href="~/assets/css/userpage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header Sections Start -->
+    <header class="header">
+        <nav>
+            <div class="menu">
+                <i id="shop-menu" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="/assets/image/rampage-logo (1).svg" alt="Rampage Logo">
+            </div>
+            <ul>
+                <li style="cursor: pointer;">
+                    <a href="login.html">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Giris yap</span>
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-truck"></i>
+                </li>
+                <li class="basket_click">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="quantity">1</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-magnifying-glass search-open-icon"></i>
+                </li>
+            </ul>
+            <div class="basket-container">
+                <div class="basket-header">
+                    <span>Sepet</span>
+                    <div class="close_btn_click">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+
+                <div class="basket-products">
+                    <div class="sepet-info">
+                        <div class="sepet-img">
+                            <a href="#">
+                                <img src="/assets/image/demosepet.png" alt="Sepet Klavye">
+                            </a>
+                        </div>
+                        <div class="sepet-name">
+                            <a href="#">
+                                <span>
+                                    Rampage KB-R211 PRIME Rainbow Aydınlatmalı Kristal Blue Switch Mekanik Gaming
+                                    Oyuncu Klavyesi 34546
+                                </span>
+                            </a>
+                        </div>
+                        <div class="sepet-count">
+                            <div class="piece">
+                                <div class="product-qty">
+                                    <div class="qty-minus">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25"
+                                             viewBox="0 0 9.156 16.953">
+                                            <path d="M8.963,8.942l-7.841,7.82a.657.657,0,0,1-.928-.931L7.568,8.477.193,1.122a.657.657,0,0,1,.928-.93L8.963,8.011a.657.657,0,0,1,0,.93Z"
+                                                  transform="translate(0)" fill="#fff"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="piece-count">
+                                        <input type="number" step="1" name="adet" value="1" min="1" max="7">
+                                    </div>
+                                    <div class="qty-plus">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25"
+                                             viewBox="0 0 9.156 16.953">
+                                            <path d="M126.7,8.011,118.864.192a.657.657,0,0,0-.928.931l7.375,7.354-7.375,7.354a.657.657,0,0,0,.928.93L126.7,8.942a.657.657,0,0,0,0-.93Z"
+                                                  transform="translate(-117.742 0)" fill="#fff"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sepet-single-total">
+                            <div class="sepet-single">
+                                <h6>Fiyat</h6>
+                                <p>2.349,00 <i class="fa-solid fa-turkish-lira-sign"></i></p>
+                            </div>
+                        </div>
+                        <div class="sepet-delete">
+                            <a href="#"><i class="fas fa-trash"></i> SİL </a>
+                        </div>
+                    </div>
+                    <div class="sepet-info">
+                        <div class="sepet-img">
+                            <a href="#">
+                                <img src="/assets/image/demosepet.png" alt="Sepet Klavye">
+                            </a>
+                        </div>
+                        <div class="sepet-name">
+                            <a href="#">
+                                <span>
+                                    Rampage KB-R211 PRIME Rainbow Aydınlatmalı Kristal Blue Switch Mekanik Gaming
+                                    Oyuncu Klavyesi 34546
+                                </span>
+                            </a>
+                        </div>
+                        <div class="sepet-count">
+                            <div class="piece">
+                                <div class="product-qty">
+                                    <div class="qty-minus">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25"
+                                             viewBox="0 0 9.156 16.953">
+                                            <path d="M8.963,8.942l-7.841,7.82a.657.657,0,0,1-.928-.931L7.568,8.477.193,1.122a.657.657,0,0,1,.928-.93L8.963,8.011a.657.657,0,0,1,0,.93Z"
+                                                  transform="translate(0)" fill="#fff"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="piece-count">
+                                        <input type="number" step="1" name="adet" value="1" min="1" max="7">
+                                    </div>
+                                    <div class="qty-plus">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25"
+                                             viewBox="0 0 9.156 16.953">
+                                            <path d="M126.7,8.011,118.864.192a.657.657,0,0,0-.928.931l7.375,7.354-7.375,7.354a.657.657,0,0,0,.928.93L126.7,8.942a.657.657,0,0,0,0-.93Z"
+                                                  transform="translate(-117.742 0)" fill="#fff"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sepet-single-total">
+                            <div class="sepet-single">
+                                <h6>Fiyat</h6>
+                                <p>2.349,00 <i class="fa-solid fa-turkish-lira-sign"></i></p>
+                            </div>
+                        </div>
+                        <div class="sepet-delete">
+                            <a href="#"><i class="fas fa-trash"></i> SİL </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="shop-item-container">
+            <div class="all-boxes-item">
+                <ul>
+                    <li>
+                        <a href="shop.html">
+                            <img src="/assets/image/7_2.svg" alt="kulaklik">
+                            <span>Kulaklik ve Mikrafon</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/liklavye.svg" alt="kulaklik">
+                            <span>Klavye</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/limonitor.svg" alt="kulaklik">
+                            <span>Monitör</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/limouse.svg" alt="kulaklik">
+                            <span>Mouse</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/likasa.svg" alt="kulaklik">
+                            <span>Kasa</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/likoltuk.svg" alt="kulaklik">
+                            <span>Oyuncu Koltuğu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/lidireksiyon.svg" alt="kulaklik">
+                            <span>Direksiyon</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/limousepad.svg" alt="kulaklik">
+                            <span>Mouse Pad</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/lisogutucu.svg" alt="kulaklik">
+                            <span>Notebook Soğutucu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/lipowersupply.svg" alt="kulaklik">
+                            <span>Power Supply</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/lioyunkolu.svg" alt="kulaklik">
+                            <span>Oyun Kolu</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/lisessistemi.svg" alt="kulaklik">
+                            <span>Ses Sistemi</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/lisogutmasistemi.svg" alt="kulaklik">
+                            <span>Soğutma Sistemleri</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/licanta.svg" alt="kulaklik">
+                            <span>Çanta</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/image/liaksesuarlar.svg" alt="kulaklik">
+                            <span>Aksesuarlar</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="shop-item-search-container">
+            <div class="search-close-icon">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <form action="#" id="form">
+                <p>Size Nasıl Yardımcı Olabiliriz?</p>
+                <input type="text" placeholder="Ürün veya Kod Ara" class="form_input">
+            </form>
+        </div>
+    </header>
+    <!-- Header Sections End -->
+    @RenderBody()
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-all">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="/assets/image/rampage-logo (1).svg" alt="Rampage logo">
+                </div>
+                <div class="footer-email">
+                    <a href="#">info@rampage.com.tr</a>
+                </div>
+                <div class="footer-send-email">
+                    <div class="buttons">
+                        <span>Katıl</span>
+                        <span>Ayrıl</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="eposta" placeholder="E-posta Adresiniz">
+                    </div>
+                    <div class="send-email">
+                        <button>Gönder</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-mid">
+                <div class="links">
+                    <a href="#">Hakkımızda </a>
+                    <a href="#">Destek </a>
+                    <a href="#">İletişim </a>
+                    <a href="#">Bloglar</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="policys">
+                    <a href="#">Gizlilik ve Çerez Politikası</a>
+                    <a href="#">KVKK ve Aydınlatma Metni</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2024 RAMPAGE</span>
+                <p>TR/GLOBAL</p>
+                <p>Web Tasarim By Vusaal</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Start -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>
+
