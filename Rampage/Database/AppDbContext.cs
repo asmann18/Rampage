@@ -16,4 +16,7 @@ public class AppDbContext : DbContext
     public DbSet<ProductImage> ProductImages { get; set; } = null!;
     public DbSet<ProductInfo> ProductInfos { get; set; } = null!;
     public DbSet<Color> Colors { get; set; } = null!;
+    public DbSet<Setting> Settings { get; set; } = null!;
+    public DbSet<BlogCategory> BlogCategories { get; set; } = null!;
+    public DbSet<Blog> Blogs  { get; set; } = null!;
 }

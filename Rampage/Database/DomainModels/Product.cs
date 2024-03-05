@@ -28,6 +28,15 @@ public class Product : BaseEntity, IEntity
     [Required(ErrorMessage = "Arkaplan resmi gereklidir.")]
     public string BGImagePath { get; set; } = null!;
 
+
+    public Category Category { get; set; } = null!;
+    [Required(ErrorMessage = "Kategori gereklidir.")]
+    public int CategoryId { get; set; }
+
+    public Color Color { get; set; } = null!;
+    [Required(ErrorMessage = "Renk gereklidir.")]
+    public int ColorId { get; set; } 
+
     public ICollection<ProductImage> ProductImages { get; set; } = new List<ProductImage>();
     public ICollection<ProductInfo> ProductInfos { get; set; } = new List<ProductInfo>();
 }
